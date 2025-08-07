@@ -1,0 +1,20 @@
+#PACMAN
+sudo pacman -S git firefox hyprpaper waybar nodejs npm telegram-desktop
+ttf-font-awesome otf-font-awesome ttf-jetbrains-mono fish pkgfile
+ttf-dejavu powerline-fonts inetutils nwg-look papirus-icon-theme
+fastfetch thunar pavucontrol gimp 
+
+#YAY(AUR)
+git clone https://aur.archlinux.org/yay.git​
+makepkg -si
+
+yay -S hyprshot stretchly-bin visual-studio-code-bin google-chrome
+
+#SHELL(BASH => FISH)
+chsh
+/bin/fish
+
+#Themes
+git clone https://github.com/vinceliuice/Graphite-gtk-theme
+cd Graphite-gtk-theme
+./install.sh
