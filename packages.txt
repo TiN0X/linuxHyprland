@@ -2,13 +2,13 @@
 sudo pacman -S git firefox hyprpaper waybar nodejs npm telegram-desktop
 ttf-font-awesome otf-font-awesome ttf-jetbrains-mono fish pkgfile
 ttf-dejavu powerline-fonts inetutils nwg-look papirus-icon-theme
-fastfetch thunar pavucontrol gimp onlyoffice-bin mpv
+fastfetch thunar pavucontrol gimp mpv
 
 #YAY(AUR)
 git clone https://aur.archlinux.org/yay.git​
 makepkg -si
 
-yay -S hyprshot stretchly-bin visual-studio-code-bin google-chrome
+yay -S hyprshot stretchly-bin visual-studio-code-bin google-chrome onlyoffice-bin
 
 #SHELL(BASH => FISH)
 chsh
