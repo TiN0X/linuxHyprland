@@ -8,7 +8,7 @@ fastfetch thunar pavucontrol gimp mpv 7zip unrar
 git clone https://aur.archlinux.org/yay.git​
 makepkg -si
 
-yay -S hyprshot stretchly-bin visual-studio-code-bin google-chrome onlyoffice-bin
+yay -S hyprshot stretchly-bin visual-studio-code-bin google-chrome onlyoffice-bin webstorm webstorm-jre
 
 #SHELL(BASH => FISH)
 chsh
